@@ -1,0 +1,131 @@
+body{
+    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/nasty_fabric.png);
+}
+#outer-circle{
+    border-style: solid;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border-width: 10px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 8px 8px 15px 5px #888888;
+}
+#inner-circle{
+    font-family: 'Original Surfer', cursive;
+    border-style: solid;
+    height: 250px;
+    width: 250px;
+    border-width: 10px;
+    border-radius: 50%;
+    background: grey;
+    position: absolute;
+    top: 50%;
+    box-sizing: border-box;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+#title{
+    /* to place the inner-circle within boundaries we need to add absolute property in every class & id */
+    position: absolute;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+#switches{
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 110px;
+}
+.toggle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button{
+    border-radius: 50% !important;
+    background-color: lightgray;
+    font-size: 1.5em;
+}
+.text1{
+    position: absolute;
+    margin-left: 19px;
+    margin-top: 142px;
+}
+.text2{
+    position: absolute;
+    margin-left: 83px;
+    margin-top: 197px;
+}
+/* last-child make simple to slide "STRICT"  text */
+.text1 span:last-child{
+    padding-left: 70px;
+}
+#turn{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    margin-left: 92px;
+    margin-top: 170px;
+    color: rgb(54, 113, 222);
+    background-color: #330000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+#topLeft{
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    background: darkgreen ;
+    box-sizing: border-box;
+    border-radius: 250px 0 0 0;
+    margin: -250px 0 0 -250px;
+}
+#topRight{
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    background: darkred ;
+    box-sizing: border-box;
+    border-radius: 0 250px 0 0;
+    margin: -250px 0 0 0 ;
+}
+#bottomLeft{
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    background: goldenrod ;
+    box-sizing: border-box;
+    border-radius: 0 0 0 250px ;
+    margin: 0 0 0 -250px;
+}
+#bottomRight{
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    background: darkblue ;
+    box-sizing: border-box;
+    border-radius: 0 0 250px 0;
+    margin: 0 0 -250px 0 ;
+}
+
+
